@@ -197,7 +197,7 @@ const animationTimeline = () => {
     )
     .staggerFromTo(
       ".baloons img",
-      2.5,
+      2,
       {
         opacity: 0.9,
         y: 1400
@@ -210,7 +210,7 @@ const animationTimeline = () => {
     )
     .from(
       ".lydia-dp",
-      0.5,
+      0.2,
       {
         scale: 3.5,
         opacity: 0,
@@ -220,7 +220,7 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .from(".hat", 0.5, {
+    .from(".hat", 0.2, {
       x: -100,
       y: 350,
       rotation: -180,
@@ -267,13 +267,13 @@ const animationTimeline = () => {
     )
     .staggerTo(
       ".eight svg",
-      1.5,
+      1.2,
       {
         visibility: "visible",
         opacity: 0,
         scale: 80,
         repeat: 3,
-        repeatDelay: 1.4
+        repeatDelay: 1.2
       },
       0.3
     )
