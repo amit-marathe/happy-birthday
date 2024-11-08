@@ -227,6 +227,11 @@ body {
   font-weight: lighter;
 }
 
+.nine  .last-words{
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
 #replay {
   z-index: 3;
   cursor: pointer;
@@ -296,4 +301,10 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+
+  .nine  .last-words{
+    font-size: .7rem;
+    font-weight: lighter;
+  }
+
 }
